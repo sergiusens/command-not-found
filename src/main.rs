@@ -27,7 +27,7 @@ fn main() {
 
     let data_dir = Path::new(matches.value_of("data_dir").unwrap_or("/usr/share/command-not-found"));
     let db_file_path = data_dir.join("programs.d").join("all-main.db");
-    let db = Gdbm::new(db_file_path.as_path(), 1024, gdbm::READER, 0).unwrap();
+    let db = Gdbm::new(db_file_path.as_path(), 0, gdbm::READER, 0).unwrap();
     let data = db.fetch(matches.value_of("command").unwrap()).unwrap();
   
     println!("Please install: {}", data);
