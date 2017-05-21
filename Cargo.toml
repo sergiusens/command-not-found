@@ -6,3 +6,4 @@ authors = ["Sergio Schvezov <sergio.schvezov@canonical.com>"]
 [dependencies]
 gdbm = "0.1.0"
 clap = '2'
+glob = "0.2"
