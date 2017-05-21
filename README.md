@@ -3,7 +3,7 @@ command-not-found in rust
 
 ## Why?
 
-Mostly to get aqcuanted with rust and to also look at the speed benefits, here's a not so exhaustive comparison:
+Mostly to get acquainted with rust and to also look at the speed benefits, here's a not so exhaustive comparison:
 
 ```
 sergiusens@mirkwood:~/source/command-not-found$ time /usr/lib/command-not-found add-apt-repository
